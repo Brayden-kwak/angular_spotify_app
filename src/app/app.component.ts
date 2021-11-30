@@ -6,16 +6,14 @@
 *  
 *  Name: Jihoon Kwak Student ID: 158545194 Date: 03-Dec-2021 
 
-Angular App (Deployed) Link:
-
-User API (Heroku) Link: https://spotify-v-practice.herokuapp.com/api/user/login
+* Angular App (Deployed) Link: https://laughing-williams-e4f99d.netlify.app
+* User API (Heroku) Link: https://spotify-v-1.herokuapp.com/api/user/favourites
 
 ********************************************************************************/ 
 
 import { Component, OnInit } from '@angular/core';
 import { Event, NavigationStart, Router } from '@angular/router';
 import { AuthService } from './auth.service';
-
 
 @Component({
   selector: 'app-root',
